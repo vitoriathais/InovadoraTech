@@ -1,0 +1,191 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #020101;
+    background-image: linear-gradient(to bottom, #000000 0%, #0d1ee2 50%, #5b63f4 100%);
+    background-position: top;
+    background-size: cover;
+ }
+
+ h1 {
+    color: #88c9e2;
+    font-family: 'arial';
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+   }
+ 
+h2 {
+    color: #88c9e2;
+    font-family: 'arial';
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+
+  .software-image {
+    width: 50%; 
+    height: auto; 
+    max-width: 100%; 
+    display: block; 
+    margin: 0 auto;
+    float: left;
+}
+
+.equipe-image {
+    width: 50%; 
+    height: auto; 
+    max-width: 100%; 
+    display: block; 
+    margin: 0 auto;
+    float: left;
+}
+
+.image-erp {
+    width: 50%; 
+    height: auto; 
+    max-width: 100%; 
+    display: block; 
+    margin: 0 auto;
+    float: left;
+}
+
+.image-funcionalidade {
+    width: 50%; 
+    height: auto; 
+    max-width: 100%; 
+    display: block; 
+    margin: 0 auto;
+    float: left;
+}
+
+.image-aplicativosmoveis {
+    width: 50%; 
+    height: auto; 
+    max-width: 100%; 
+    display: block; 
+    margin: 0 auto;
+    float: left;
+}
+
+.image-aplicativosioseandroid {
+    width: 50%; 
+    height: auto; 
+    max-width: 100%; 
+    display: block; 
+    margin: 0 auto;
+    float: left;
+}
+
+
+.imagens img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+}
+
+.descricao {
+    background-color: #000000;
+    padding: 20px;
+    border: 1px solid #000000;
+    margin-bottom: 20px;
+}
+
+.descricao p {
+    font-size: 20px;
+    line-height: 1.5;
+    color: #bfdde9;
+    margin-bottom: 10px;
+}
+
+.descricao a {
+    color: #bfdde9;
+    text-decoration: none;
+}
+
+.descricao a:hover {
+    text-decoration: underline;
+}
+
+.descricao p:first-child {
+    font-weight: bold;
+}
+
+.equipe ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.equipe li {
+    margin: 10px;
+    text-align: center;
+}
+
+.CEO-image,
+.Diretora-image,
+.Diretor-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #fff;
+}
+
+h3 {
+    margin-top: -05px;
+    color: #88c9e2;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.formulario {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #1072d5;
+    border-radius: 5px;
+    background-color: #003d7a;
+}
+
+.formulario label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+
+.formulario input {
+    width: calc(100% - 10px);
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #0f0808;
+    border-radius: 5px;
+}
+
+
+.formulario button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #1d6abd;
+    color: #000000;
+    cursor: pointer;
+}
+
+
+.formulario button:hover {
+    background-color: #0056b3;
+}
+
+
+footer {
+    background-color: #000000;  
+    padding: 20px; 
+    text-align: center; 
+}
+
+
+footer p {
+    margin: 0; 
+}
